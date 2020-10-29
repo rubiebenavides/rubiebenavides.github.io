@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'chunckfiveregular';
+    src: url('../fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background: url('../images/abstractPic.jpg');
+    background-size: cover;
+}
+h1{
+    font-family: 'chunckfiveregular', Arial, sans-serif;
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+    border-bottom: 1px;
+    border-bottom-style:  solid;
+    border-bottom-color:  black;
+}
+
+/* Row 2 */
+.fonts{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+    font-size: 1.5em;
+    color: orange;
+}
+.colors{
+    color: red;
+    font-style: bold;
+}
+.more{
+    color: blue;
+    text-decoration: underline;
+    border: 1px, dashed, gray;
+    background-color: #D69BBE;
+}
+.backgrounds{
+    color: green;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.25em;
+}
+li{
+    list-style-image: url("../images/peaceSign.png");   
+}
+
+/*Row 3 */
+#outerwrapper{
+    width: 650px;
+    background-color: #E7DBF6;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #4892e5;
+    color: white;
+    padding: 10px;
+}
+nav{
+    width: 175px;
+    background-color: #E7DBF6;
+    float: left;
+}
+article{
+    margin-left: 175px;
+    background-color: white;
+    padding: 10px;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
