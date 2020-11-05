@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A table containing my favorite songs and restaurants">
+    <meta name="keywords" content="favorite, song, restaurants">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If You Build It</title>
+
+    <link href="css/ifYouBuildIt.css" type="text/css" rel="stylesheet">
+<!-- Embedded style sheet; you use an External style sheet -->
+	<!--<style>
+		table {
+			border: 5px solid green;
+		}
+		colgroup{
+		  background-color: yellow;
+		}
+	</style>-->
+</head>
+<body>
+<table class="tableStyle">
+	<caption>Example of How to Use colgroup</caption>
+    <!-- Example of how to use colgroup, page 173  
+	     colgroup must be after the optional caption and before the optional thead in the table. 
+	     colgroup's span attribute defines the number of columns in the group; the default value is 1-->
+    <colgroup>
+        <col class="pink">
+        <col class="pink">
+        <col class="grey">
+        <col class="grey">
+    </colgroup>
+    <thead>
+        <tr>
+        <th>Genre</th>
+        <th>Song Title</th>
+        <th>Artist</th>
+        <th>Youtube Link</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Alternative/Indie</td>
+        <td>Take Me Away</td>
+        <td>The Driver Era</td>
+        <td><a href="https://www.youtube.com/watch?v=b1FcB5fBmqY" target="_blank">"https://www.youtube.com/watch?v=b1FcB5fBmqY"</a></td>
+    </tr>
+    <tr>
+        <td>Alternative/Indie</td>
+        <td>Cotton Candy</td>
+        <td>YUNGBKUD</td>
+        <td><a href="https://www.youtube.com/watch?v=yDeIAllUAWc" target="_blank">https://www.youtube.com/watch?v=yDeIAllUAWc</a></td>
+    </tr>
+	<tr>
+        <td>Alternative/Indie</td>
+        <td>A Kiss</td>
+        <td>The Driver Ear</td>
+        <td><a href="https://www.youtube.com/watch?v=tIl34Bg6yt0" target="_blank"> https://www.youtube.com/watch?v=tIl34Bg6yt0</a></td>
+    </tr>
+    <tr>
+        <td>Alternative Metal</td>
+        <td>Eternally Yours</td>
+        <td>Motionless In white</td>
+        <td><a href="https://www.youtube.com/watch?v=TwO0zLLybQ0">https://www.youtube.com/watch?v=TwO0zLLybQ0</a></td>
+    </tr>
+    </tbody>
+</table>
+<table class="tableStyle">
+    <caption>Top Four Favorite Restaurants</caption>
+    <thead>
+        <tr>
+        <th>Restraunt Name</th>
+        <th>Niche</th>
+        <th>Address</th>
+        <th>Website Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="grey">
+            <td>Five Guys</td>
+            <td>Hamburgers and Fries</td>
+            <td>2902, 1 164th St SW Bldg B, Suite B, Lynnwood, WA 98087</td>
+            <td><a href="https://order.fiveguys.com/menu/lynnwood/">https://order.fiveguys.com/menu/lynnwood/</a></td>
+        </tr>
+        <tr>
+            <td>Cafe Zupas</td>
+            <td>Soup, Salad, and Sandwhich</td>
+            <td>2148 N. Eagle Road, Meridian, ID 83646</td>
+            <td><a href="https://cafezupas.com/index.html">https://cafezupas.com/index.html</a></td>
+        </tr>
+        <tr class="grey">
+            <td>Fresh off the Hook</td>
+            <td>Seafood</td>
+            <td>507 N Milwaukee St, Boise, ID 83704</td>
+            <td><a href="http://www.freshoffthehookseafood.com/">http://www.freshoffthehookseafood.com/</a></td>
+        </tr>
+        <tr>
+            <td>Lamai Thai Food</td>
+            <td>Thai Food</td>
+            <td>453 Caldwell Blvd, Nampa, ID 83651</td>
+            <td><a href="https://www.facebook.com/LamaiThaiFood/"> https://www.facebook.com/LamaiThaiFood/</a></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Example of Using Colspan</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

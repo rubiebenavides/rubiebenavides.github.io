@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+    background: linear-gradient(to right, rgb(19, 190, 190), rgb(160, 24, 47))
+}
+.tableStyle{
+    /*fix border*/
+    border:black;
+    background-color: teal;
+    text-align: left;
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.pink{
+    background-color:rgb(167, 43, 64);
+}
+.grey{
+    background-color: grey;
+}
+caption{
+    font-size: x-large;
+    color: white;
+}
+thead{
+    background-color: white;
+}
+td, th {
+	border: 1px solid #212529;
+}
+tr:nth-child(even){
+    background-color:rgb(189, 189, 235);
+}
+tfoot{
+    text-align: center;
+    background-color: white;
+}
