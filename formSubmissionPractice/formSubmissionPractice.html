@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<!---Rubie Benavides 5 November 2020    -->
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="keywords" content="contact, form, email">
+   <meta name="author" content="Rubie Benavides">
+   <meta description="description" content="Basic Contact Form layout demonstration HTML syntax />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Contact Form Example</title>
+<body>
+    <form action="mailto:rubiebenavides@my.cwi.edu?subject=Personal Portfolio Mail" enctype="text/plain" method="POST">
+		<label for="company">Company:</label><br> 
+		<input type="text" name="compName" size="50" id="company"><br>
+		
+		<label for="contact">Person to contact:</label><br>
+		<input type="text" name="contactName" size="30" id="contact"><br><br>
+		
+		<label for="comment">Enter your comments:</label><br>
+		<textarea cols="100" rows="10" name="comment"></textarea><br><br>
+		
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+  </body>
+</html>
