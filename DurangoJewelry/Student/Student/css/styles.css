@@ -1,0 +1,61 @@
+/*Rubie Benavides 6 November 2020*/
+@font-face {
+    font-family: 'arizoniaregular';
+    src: url('arizonia-regular-webfont.woff2') format('woff2'),
+         url('arizonia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	background-image: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#outerwrapper {	
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	text-align: center;
+}
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+img{
+	float:left;
+	border-radius: 50%;
+
+}
+.addrightmargin{
+	margin-right: 10%;
+}
+
+nav > ul{
+	/*float???*/
+	font-size: 1.5em;
+	float: none;
+	list-style-type: none;
+	text-align: left;
+}
+main{
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: left;
+}
+h1{
+	font-size: 4em;
+	font-family: 'Pacifico', 'Comic Sans MS', Comic-Sans, cursive;
+}
+h2{
+	font-family: 'arizoniaregular', 'Lucida Sans', Verdana, sans-serif;
+	font-size: 2em;
+}
