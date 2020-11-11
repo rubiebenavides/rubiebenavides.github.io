@@ -1,0 +1,128 @@
+/*   Layout styles for Slate and Pencil Tutoring
+   Filename: sp_layout.css */
+
+
+/* Row Styles */
+/* Done for you-instruction #6 */
+.row::after {
+   clear: both;	
+   content: "";
+   display: table;
+}
+header, nav, ul, li, a{
+	 box-sizing: border-box;
+}
+
+/* Page Header Styles */
+/* Instruction #7 */
+	body > header > img {
+		display: block;
+		width: 70%;
+		float: left;
+
+	}
+	
+	/* Instruction #8 */
+	body > header > nav {
+		float: left;
+		padding-left: 2%;
+		padding-right: 2%;
+		width: 30%;
+		
+	}	
+	
+	/* Instruction #9 */
+	body > header > nav a {
+		display: block;
+		width: 100%;
+	}
+	
+
+/* Horizontal Navigation List Styles */
+/* Instruction #10 */
+	.horizontal ul li{
+		display: block;
+		width: 12.5%;
+		float: left;
+	}
+
+	
+/* Topics Styles */
+	/* Instruction #11*/
+	ul#topics li{
+		display: block;
+		width: 20%;
+		float: left;
+		margin-left: 0%;
+		margin-right: 1.5%;
+	}
+
+	/* Done for you-instruction #12 */
+	ul#topics li:first-of-type {
+	   margin-left: 7.75%;
+	}
+
+	ul#topics li:last-of-type {
+	   margin-right: 7.75%;
+	}
+
+	/* Instruction #13*/
+	ul#topics img{
+		display: block;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+/* HR Styles */
+/* Instruction #14*/
+	hr{
+		width: 50%;
+	}
+
+
+/* Customer Comment Styles */
+	/* Instruction #15*/
+
+	ul#comments{
+		width: 75%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Instruction #16*/
+	ul#comments li {
+	   float: left;
+	   display: block;
+	   width: 50%;
+	   margin-bottom: 30px;
+
+	}
+	/* Instruction #17*/
+	ul#comments li img {
+	   float: left;
+	   display: block;
+	   width: 20%;
+	   margin-left: 5%;
+	   margin-right: 5%;
+	   border-radius: 50%;
+		
+	}
+	/* Instruction #18*/
+	ul#comments li p {
+	   float: left;
+	   width: 70%;
+	  
+	}
+
+
+/* Footer Styles */
+/* Done for you-instruction #19 */
+footer {
+    clear: both;
+}
+
+
