@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Rubie Benavides 4 Novemeber 2020-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Portfolio Home">
+    <meta name="keywords" content="personal portfolio, about me, job experience, education">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Contact</title>
+    <link href="css/personal_portfolio_layout.css" type="text/css" rel="stylesheet">
+    <link href="css/personal_portfolio_styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  </head>
+  <body class="header-image" id="contactBack">
+      <header>
+          <nav>
+            <ul>
+                <li><a href="pp_index.html">Home</a></li>
+                <li><a href="pp_aboutme.html">About Me</a></li>
+                <li><a href="pp_workexperience.html">Work Experience</a></li>
+                <li><a href="pp_projects.html">Projects</a></li>
+                <li><a href="pp_education.html">Education</a></li>
+                <li><a href="pp_contact.html">Contact Information</a></li>
+            </ul>
+          </nav>
+        </header>   
+        <form action="mailto:rubiebenavides@my.cwi.edu?subject=Personal Portfolio Mail" enctype="text/plain" method="POST">
+            <label for="company">Company:</label><br> 
+            <input type="text" name="compName" size="50" id="company"><br>
+            
+            <label for="contact">Name:</label><br>
+            <input type="text" name="contactName" size="30" id="contact"><br><br>
+
+            <label for="contact">Phone Number:</label><br>
+            <input type="text" name="contactPhne" size="30" id="contact"><br><br>
+
+            <label for="contact">Email:</label><br>
+            <input type="text" name="contactEmail" size="30" id="contact"><br><br>
+            
+            <label for="comment">Enter your comments:</label><br>
+            <textarea cols="100" rows="10" name="comment"></textarea><br><br>
+
+            <section class="form" id="position">
+            <h2>Position Type</h2>
+            <input type="radio" id="temporary" name="temporary" value="temporary">
+            <label for="temporary">Temporary</label><br>
+            <input type="radio" id="full-time" name="full-time" value="full-time">
+            <label for="full-time">Full-Time</label><br>
+            <input type="radio" id="part-time" name="part-time" value="part-time">
+            <label for="part-time">Part-Time</label><br>
+            <input type="radio" id="seasonal" name="seasonal" value="seasonal">
+            <label for="seasonal">Seasonal</label><br><br>
+            </section>
+            
+            <section class="form" id="location">
+                <h2>Position Location</h2>
+                <select name="position_location" sice="10" multiple>
+                    <option>Office</option>
+                    <option>Remote</option>
+                    <option>Travel</option>
+                </select>
+            </section><br>
+            <input type="submit" id="submit" value="Submit" class="btn">
+         </form> 
+         <footer>
+             <!--Twitch Image and link in footer-->
+            <a href="https://www.linkedin.com/in/rubie-benavides-5a82771b2" target="_blank"><img src="images/linkedIn.png" alt="LinkedIn"></a>
+            <a href="mailto:rubiebenavides@outlook.com" target="_blank"><img src="images/email.png" alt="email"></a>
+            <a href="https://github.com/rubiebenavides" target="_blank"><img src="images/github.png" alt="Github"></a>"
+        </footer>
+</body>
+</html>

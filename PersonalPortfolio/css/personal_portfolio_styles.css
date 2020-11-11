@@ -1,0 +1,174 @@
+/*Rubie Benavides 4 Novemeber 2020*/
+@font-face {
+    font-family: 'berkshire_swashregular';
+    src: url('berkshireswash-regular-webfont.eot');
+    src: url('berkshireswash-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('berkshireswash-regular-webfont.woff2') format('woff2'),
+         url('berkshireswash-regular-webfont.woff') format('woff'),
+         url('berkshireswash-regular-webfont.ttf') format('truetype'),
+         url('berkshireswash-regular-webfont.svg#berkshire_swashregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Navigation Styles*/
+html{
+    /*Color Scheme*/
+        background:linear-gradient(to bottom, rgb(196, 194, 194), rgb(194, 151, 194) , blue );
+        text-align: center;
+        background-repeat: none;
+        font-family: 'berkshire_swashregular';
+    }
+.header-image{
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#indexBack{
+    background-image: url(../images/home.png);
+}
+#workBack{
+    background-image: url(../images/WorkExperience.png);
+}
+#educateBack{
+    background-image: url(../images/CWI.png);
+}
+#aboutBack{
+    background-image: url(../images/about_me.png);
+}
+#contactBack{
+    background-image: url(../images/contact_information.png);
+}
+#projectsBack{
+    background-image: url(../images/my_projects.png);
+}
+#twitch > p{
+    border: solid;
+    padding: 2rem;
+    margin: 2%;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(252, 239, 215);
+}
+#twitch-image{
+    float: left;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    height: 15em;
+    
+}  
+#fitness{
+    border: solid;
+    padding: 2rem;
+    margin: 2%;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(252, 239, 215);
+}
+#about-foot{
+    margin-top: 50px;
+}
+/*Move space between Nav Bar and Image*/
+/*Navigation*/
+nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 139px;
+
+}
+.education > p{
+    border: solid;
+    padding: 2rem;
+    margin: 2%;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(252, 239, 215);
+
+}
+/*add a:hover and a:active*/
+nav a:link, nav:visited{
+    color: white;
+    text-decoration: none;
+    background-color: hsla(248, 53%, 58%, 0.4);
+}
+/*Grad Image*/
+.grad{
+    height: 12em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+/*Footer*/
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
+/*Header Style*/
+h1, h2{
+    font-family: 'Fredoka One';
+}
+h1, h2, p{
+    text-align: center;
+}
+header > p{
+    background-image: url(/images/WorkExperience.png);
+    background-size: cover; height: 142px; padding: none;
+}
+p{
+    font-family: 'berkshire_swashregular'
+}
+/*Table*/
+/*Maybe edit the table some more*/
+table {
+    width: 100%;
+    background-image: linear-gradient(#FFFFFF, #F0F9E6);
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: purple; 
+    border-style: solid;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  table td, th {
+    border-width: 2px;
+    border-color: purple;
+    border-style: solid;
+    padding: 15px;
+  }
+  
+  table thead {
+    background-color: purple;
+  }
+  /*Section Styling*/
+  #software > p{
+      border: solid;
+      padding: 2rem;
+      margin: 2%;
+      margin-left: 10em;
+      margin-right: 10em;
+      border-radius: 15px 15px 15px 15px;
+      background-color: rgb(252, 239, 215);
+  }
+  #position > h2{
+      text-align: left
+  }
+  #location > h2{
+      text-align: left;
+  }
+  /*Contact Form*/
+form{
+    float: left;
+    text-align: left ;
+  }
+#location > select{
+    width: 100px;
+    padding: 1%;
+}
+  
