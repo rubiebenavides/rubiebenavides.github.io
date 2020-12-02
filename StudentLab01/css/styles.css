@@ -1,0 +1,21 @@
+/*
+    Student Name: Rubie Benavides
+    Date: 2 December 2020
+    File Name: styles.css
+*/
+.hero{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), 
+    rgba(255, 255, 255, 0.7)), url(../images/music-notes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.welcome{
+    margin-top: 10%;
+}
+.bg-dark-purple{
+    background-color: #373684;
+}
+.text-dark-purple{
+    color: #373684;
+}
