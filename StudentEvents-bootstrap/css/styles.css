@@ -1,0 +1,39 @@
+/*
+Team Members: Rubie Benavides, Lucus Brandt
+Date: Current Date: 3 December 2020
+File Name: styles.css
+*/
+
+.bg-red {
+    background-color: #780001;
+}
+
+.bg-light-blue {
+     background-color: #ccd5e6;   
+}
+.display-1{
+    font-size: 4.5em;
+}
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {  
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+}
