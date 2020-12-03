@@ -1,0 +1,44 @@
+/*
+    Student Name: Rubie Benavides
+    Date: Current Date: 2 December 2020
+    File Name: styles.css
+*/
+.hero{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/baby-hawk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.welcome{
+    position: absolute;
+    margin-top: 40%;
+}
+.display-1{
+    font-size: 4em;
+}
+.bg-brown{
+    background-color: #2a1f14;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    
+    .welcome {
+        top: 20%;
+        left: 5%;
+        padding: 2em;
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+}
