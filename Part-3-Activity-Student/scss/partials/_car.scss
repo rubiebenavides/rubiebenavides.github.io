@@ -1,0 +1,30 @@
+.car {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  background-image: URL("../images/car.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+
+  .wheel {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: -9px;
+    background-image: URL("../images/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    &.back {
+      left: 28px;
+    }
+    &.front {
+      left: 155px;
+    }
+  }
+}
