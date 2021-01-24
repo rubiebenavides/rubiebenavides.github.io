@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Area and Perimete Calculator</title>
+    <link rel="stylesheet" href="css/rectangle.css">
+</head>
+<body>
+    <main>
+        <h1>The Area and Perimete Calculator</h1>
+        <script>
+            "use strict";
+            
+            // get miles driven from user
+            const length = parseInt(prompt("Enter length"));
+
+            // get gallons used from user
+            const width = parseInt(prompt("Enter width"));
+
+            // calculate area
+            const area = parseFloat(length * width);
+
+            //calculate perimeter
+            const perimeter = parseFloat((length * 2) + (width * 2))
+
+            // display results
+            const html = `<p><label>Length: </label>${length}</p>
+                <p><label>Width: </label>${width}</p>
+                <p><label>Area: </label>${area}</p>
+                <p><label>Perimeter: </label>${perimeter}</p>`;
+            document.write(html);
+        </script>    
+    </main>
+</body>
+</html>
