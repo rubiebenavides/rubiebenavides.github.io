@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Obsolete Car Part Manufactuer">
+    <meta name="keywords" content="Obsoloete care part manufactuer">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+  </head>
+  <body>
+     <header>
+        <nav>
+            <ul>
+                <li>
+                <a href="index.html">Home</a>
+             </li>
+            <li>
+                <a href="faqs.html">FAQs</a>
+             </li>
+             <li>
+                <a href="#.html">Newsletter</a>
+             </li>
+             <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+        </nav>
+     </header>
+     <h1>Contact Us!</h1>
+     <form action="confirm.html" method="get">
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name">
+            <span>*</span>
+        </div>
+        <div>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name">
+            <span>*</span>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="">Select a country</option>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+            </select>
+            <span>*</span>
+        </div>
+        <div>
+            <label>Prefered Contact Method</label>
+            <input type="radio" name="contact" id="email"
+                value="email">Email
+            <input type="radio" name="contact" id="mobile"
+                value="mobile">Mobile phone
+            <input type="radio" name="contact" id="none"
+                value="none">Don't contact me
+        </div>
+        <div>
+            <label>Terms of Service:</label>
+            <input type="checkbox" name="terms" id="terms"
+                value="yes">I accept
+            <span>*</span>
+        </div>
+        <div>
+            <label for="comments">Quetions or Comments:</label>
+            <textarea name="comments" id="comments" row="5" cols="40"></textarea>
+            <span>*</span>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="register" value="Register">
+            <input type="button" id="reset_form" value="Reset">
+        </div>
+        <script src="js/faqs.js"></script>
+  </body>
+</html>
