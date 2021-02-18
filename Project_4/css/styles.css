@@ -32,7 +32,7 @@
                        Basic Design
 ******************************************************/
 body{
-    background-image: radial-gradient(black, grey);
+    background-image: radial-gradient(black, rgb(99, 99, 99));
     color: cornsilk;
 }
 /******************************************************
