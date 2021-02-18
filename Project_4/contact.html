@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Obsolete Car Part Manufactuer">
+    <meta name="keywords" content="Obsoloete care part manufactuer">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact Page</title>
+
+    <script src="js/register.js"></script>
+
+<!--=====================================================================================================================================================
+                                            MODIFICATION LOG
+        #Original Author: Rubie M. Benavides
+        #Date Created: 15-2-2021
+        #Last Modified by: Rubie Benavides
+        #Date Last Modified: 15-2-2021
+
+        #Modification Log:
+        
+          
+=========================================================================================================================================================-->
+</head>
+<body>
+    <header>
+        <div class="navbar" id="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="newsletter.html">Newsletter</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a> 
+        </div>
+    </header>
+    <main>
+        <h1>Contact Us!</h1>
+        <section id="contact" class="section">
+           <form action="confirm.html" method="get">
+               <div>
+                   <label for="reason">Reason for Contacting Us</label>
+                   <select name="reason" id="reason">
+                       <option value="">Select a Reason</option>
+                       <option>Payment Plan</option>
+                       <option>Pay Online</option>
+                       <option>Delivery</option>
+                       <option>Pickup</option>
+                       <option>Recommendations</option>
+                       <option>Other</option>
+                   </select>
+               </div>
+               <div>
+               <label for="first_name">First Name</label>
+               <input type="text" name="first_name" id="first_name">
+               <span>*</span>
+               </div>
+               <div>
+               <label for="last_name">Last Name</label>
+               <input type="text" name="last_name" id="last_name">
+               <span>*</span>
+               </div>
+               <div>
+                   <label for="email_address">E-Mail:</label>
+                   <input type="text" name="email_address" id="email_address">
+                   <span>*</span>
+               </div>
+               <div>
+                   <label for="phone">Mobile Phone:</label>
+                   <input type="text" name="phone" id="phone">
+                   <span>*</span>
+               </div>
+               <div>
+                <label>Contact me by:</label>
+                <input type="radio" name="contact" id="text"
+                    value="text" checked>Text
+                <input type="radio" name="contact" id="email"
+                    value="email">Email
+                <input type="radio" name="contact" id="none"
+                    value="none">Don't contact me
+            </div>
+            <div>
+                <label>Terms of Service:</label>
+                <input type="checkbox" name="terms" id="terms"
+                    value="yes">I accept
+                <span>*</span>
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" id="register" value="Register">
+                <input type="button" id="reset_form" value="Reset">
+            </div>
+           </form>
+        </section>
+    </main>
+</body>
+</html>

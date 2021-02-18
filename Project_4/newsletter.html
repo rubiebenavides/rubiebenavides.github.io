@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Obsolete Car Part Manufactuer Newsletter">
+    <meta name="keywords" content="Obsoloete care part manufactuer">
+    <meta name="author" content="Rubie Benavides">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!--JavaScript-->
+    <script src="js/newsletter.js" defer></script>
+
+    <title>Newsletter</title>
+<!--=====================================================================================================================================================
+                                            MODIFICATION LOG
+        #Original Author: Rubie M. Benavides
+        #Date Created: 15-2-2021
+        #Last Modified by: Rubie Benavides
+        #Date Last Modified: 15-2-2021
+
+        #Modification Log: 
+             - 2-15-2021: Craeted newsletter.html | Added navbar 
+             - 2-17-2021: Added JavaScript Link | debugged Java | Added new section
+          
+=========================================================================================================================================================-->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar" id="navbar">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="newsletter.html">Newsletter</a>
+                    <a href="faqs.html">FAQs</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a> 
+            </div>
+        </header>
+        <main>
+            <h1>Newsletter</h1>
+            <section id="newsletter" class="section">
+                <form action="confirm.html" method="get">
+                    <div>
+                        <div>
+                            <label for="email_address">E-Mail:</label>
+                            <input type="text" name="email_address" id="email_address">
+                            <span class="red" id="email_error">*</span>
+                        </div>
+                        <div>
+                            <label for="preferred_name">Preferred Name:</label>
+                            <input type="text" name="preferred_name" id="preferred_name">
+                            <span class="red" id="preferred_name_error">*</span>
+                        </div>
+                        <div>
+                            <label for="first_name">First Name:</label>
+                            <input type="text" name="first_name" id="first_name">
+                            <span class="red" id="first_name_error">*</span>
+                        </div>
+                        <div>
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" name="last_name" id="last_name">
+                            <span class="red" id="last_name_error">*</span>
+                        </div>
+                        <div>
+                            <label>Terms of Service:</label>
+                            <input type="checkbox" name="terms" id="terms"
+                            value="yes">I accept
+                            <span>*</span>
+                        </div>
+                        <div>
+                            <label>&nbsp;</label>
+                            <input type="button" id="clear_form" class="resetButton" value="Clear Form">
+                            <input type="submit" id="join_list" class="resetButton" value="Join List">
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <h1>The Perks of Joining Our Newsletter</h1>
+            <section id="newsletterDes" class="section">
+                <p>
+                    Our Newsletter will give you all the latest updates on our car parts and sales. Join now 
+                    to recieve a 20% discount in store or online! You won't regret it.
+                </p>
+            </section>
+        </main>
+</body>
+</html>
