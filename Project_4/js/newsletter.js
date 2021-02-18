@@ -64,7 +64,7 @@ const clearForm = () => {
     $("#last_name_error").textContent = "*"; 
 
     // set focus on first text box after resetting the form
-    $("#email").focus();
+    $("#email_address").focus();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
