@@ -1,0 +1,8 @@
+body {
+    position: relative; 
+  }
+  #section1 {padding-top:50px;height:750px;color: #fff; background-color: rgb(177, 20, 20);}
+  #section2 {padding-top:50px;height:750px;color: #fff; background-color: black;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
